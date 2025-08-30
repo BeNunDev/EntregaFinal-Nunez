@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Moneda</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Librería SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>💱 Conversor de Moneda</h1>
+
+      <label for="montoARS">Monto en ARS:</label>
+      <input
+        type="number"
+        id="montoARS"
+        placeholder="Ingrese monto en pesos argentinos"
+        value="1000"
+      />
+
+      <label for="moneda">Convertir a:</label>
+      <select id="moneda">
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="BRL">Real (BRL)</option>
+      </select>
+
+      <button onclick="convertirMoneda()">Convertir</button>
+      <button onclick="limpiarHistorial()">🗑 Limpiar historial</button>
+
+      <h2>Resultado:</h2>
+      <p id="resultado">Ingrese un monto y seleccione una moneda.</p>
+
+      <h2>Historial:</h2>
+      <ul id="historial"></ul>
+    </div>
+
+    <script src="./js/conversor.js"></script>
+  </body>
+</html>
