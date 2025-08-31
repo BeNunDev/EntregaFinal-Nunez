@@ -64,16 +64,5 @@ ProyectoFinal-Nuñez/
   "EUR": 1100,
   "BRL": 200
 }
-🔹 Estas tasas son simuladas y se pueden modificar fácilmente editando el archivo data/monedas.json.
 
----
 
-## 📦 Instalación      
-
-No requiere instalación.
-Solo es necesario clonar el repositorio y abrir index.html:
-
-git clone https://github.com/BeNunDev/EntregaFinal-Nunez.git
-cd EntregaFinal-Nunez
-
-Abrir el archivo index.html en el navegador.
